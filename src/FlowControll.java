@@ -85,7 +85,11 @@ public class FlowControll {
         }
 
         //for문의 중첩
-        
+        for (int f=0;f<10;f++){
+            for(int g=0; g<10;g++){
+                System.out.println(f+"*"+g+"="+f*g);
+            }
+        }
 
         //continue문. 공배수를 찾는 반복문.
     }
