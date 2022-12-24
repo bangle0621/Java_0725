@@ -12,7 +12,7 @@ public class Parent2 extends Parent {
 
 }
 
-public class Parent3{
+class Parent3{
     public static void main(String args[]){
     Parent p = new Parent();
     System.out.println(p.pub);  //public 전체
