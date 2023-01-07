@@ -9,7 +9,7 @@ public class Fighter implements Fightable{
 
     @Override
     public void attack(Fightable f) {
-
+        System.out.println("때린다");
     }
 
     Fightable fi = new Fighter();
