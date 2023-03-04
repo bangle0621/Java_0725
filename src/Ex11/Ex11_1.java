@@ -61,6 +61,7 @@ public class Ex11_1 {
         list1.retainAll(list2);
         print(list1, list2);
 
+    //list2에서 list1에 포함된 객체들을 삭제한다.
         for (int i= 0; i<list2.size()-1; i++){
             if(list1.contains(list2.get(i))){
                 list2.remove(i);
@@ -68,8 +69,21 @@ public class Ex11_1 {
         }
         print(list1, list2);
 
+    // 배열의 길이 제한 확인
+        list1.add(4);
+        list1.add(1);
+        list1.add(2);
+        list1.add(3);
+        list1.add(4);
+        list1.add(5);
+        list1.add(6);
+        list1.add(7);
+        list1.add(8);
+        list1.add(9);
+        list1.add(0);
+        list1.add(1);
 
-    //list2에서 list1에 포함된 객체들을 삭제한다.
+        print(list1, list2);
 
     }
 
